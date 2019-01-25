@@ -34,6 +34,9 @@
                                             <constraint firstAttribute="height" constant="50" id="Gzs-BG-1HP"/>
                                         </constraints>
                                         <state key="normal" image="Rear Camera Icon"/>
+                                        <connections>
+                                            <action selector="switchCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VpR-1X-ggi"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTh-ea-vhY">
                                         <rect key="frame" x="317" y="15" width="50" height="50"/>
@@ -42,6 +45,9 @@
                                             <constraint firstAttribute="width" constant="50" id="NcO-8D-BtP"/>
                                         </constraints>
                                         <state key="normal" image="Flash On Icon"/>
+                                        <connections>
+                                            <action selector="toggleFlash:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PSb-cw-Me4"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S1p-7P-HxX">
                                         <rect key="frame" x="317" y="189" width="50" height="50"/>
